@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(192, 192, 226);
+background-repeat: no-repeat;
+text-align: center;
+}
+#home{
+
+    width: auto;
+    height: 400px;
+    background-image: url(images/home.jpg);
+    background-size:800px ;
+    background-repeat:no-repeat ;
+    background-position:center ;
+    background-attachment:fixed ;
+    display: grid;
+    grid-template-rows: auto 0PX;
+    justify-content: flex-end;
+    align-items: center;
+     & h2{
+        margin-right: 200px;
+        font-size: 60px;
+    }
+    & i{
+        margin-right: 300px;
+        font-size: 40px;
+    }
+}
+#we img{
+    width: 800px;
+}
+header{
+    
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(214, 127, 255);
+ height: 20;
+ 
+    }
+    #pro{
+        padding: 5px;
+    border-radius: 15px;
+      
+    }
+    header #home,#skiles,#communction,#servise{
+        font-size: 13px;
+        text-align: center;
+        margin-right: 5px;
+        align-items: center; 
+    }
+    #name{
+    
+        margin-right: 5px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #home,#we,#services{
+        width: auto;
+        align-items: center;
+   text-align: center;
+    }
+   u {color: red;
+    font-family:'Times New Roman', Times, serif
+}
+#desc{
+    width: 250px;
+}
+p{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    .web{
+        margin-right: 30px;
+    }
+    .img_container{
+
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    @media(max-width:950px){
+#home{
+    background-size:500px ;
+  
+    & h2{
+        margin-right: 150px;
+        font-size: 30px;
+    }
+    & i{
+        margin-right: 100px;
+        font-size: 20px;
+    }
+}
+#we img{
+    width: 90%;
+}
+
+    }
